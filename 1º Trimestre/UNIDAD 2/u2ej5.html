@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resolver Ecuaciones de Segundo Grado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Resolver Ecuación de Segundo Grado</h1>
+    <p>Ingresa los coeficientes de la ecuación de segundo grado (ax² + bx + c = 0)</p>
+    
+    <input type="number" id="a" placeholder="Coeficiente a">
+    <input type="number" id="b" placeholder="Coeficiente b">
+    <input type="number" id="c" placeholder="Coeficiente c">
+    <button onclick="resolverEcuacion()">Resolver</button>
+
+    <p id="resultado"></p>
+
+    <script src="resolverEcuacion.js"></script>
+</body>
+</html>

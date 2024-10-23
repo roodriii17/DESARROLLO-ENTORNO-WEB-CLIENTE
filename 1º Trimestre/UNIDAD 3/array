@@ -1,0 +1,12 @@
+Let nombres = ["jose","rosa","paco"];
+
+funcrion pintanombres(n)
+{console.log(n)
+
+}
+
+nombres.foreach(pintanombre);
+
+//opcion b
+
+nombres.foreach( n=>console.log(n));
